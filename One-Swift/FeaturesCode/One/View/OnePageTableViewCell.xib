@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="OnePageTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="OnePageTableViewCellID" rowHeight="426" id="KGk-i7-Jjw" customClass="OnePageTableViewCell" customModule="One_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="425"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="424.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6EY-30-Afb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="6EY-30-Afb" secondAttribute="height" multiplier="8:5" id="Bcn-AT-lAZ"/>
+                            <constraint firstAttribute="width" constant="320" id="Nfx-Ai-eNO"/>
+                            <constraint firstAttribute="height" constant="200" id="SWG-TF-Im1"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="插画 | 希崽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUh-PP-rcM">
+                        <rect key="frame" x="15" y="208" width="290" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="jVJ-aN-uYt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.44710099697113037" green="0.45083492994308472" blue="0.45882481336593628" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;这世界上有一个人是永远等着你的，不管是什么时候，不管在什么地方，反正你知道，总有这么个人。 by 张爱玲" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDE-23-FcI">
+                        <rect key="frame" x="15" y="248" width="290" height="88.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="52" id="3tJ-ZM-zIu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张爱玲" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rId-GA-Gdg">
+                        <rect key="frame" x="15" y="356.5" width="290" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="nut-3s-ets"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.447100997" green="0.45083492990000001" blue="0.45882481339999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnh-ug-Aui">
+                        <rect key="frame" x="245" y="396.5" width="25" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="I4j-M9-RH3"/>
+                            <constraint firstAttribute="height" constant="20" id="zeT-JB-rHX"/>
+                        </constraints>
+                        <state key="normal" image="home_like"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="vnh-ug-Aui" secondAttribute="bottom" constant="8" id="715-XV-q6K"/>
+                    <constraint firstItem="vnh-ug-Aui" firstAttribute="top" secondItem="rId-GA-Gdg" secondAttribute="bottom" constant="20" id="7W5-s4-Ext"/>
+                    <constraint firstAttribute="trailing" secondItem="6EY-30-Afb" secondAttribute="trailing" id="AR2-XK-Kcg"/>
+                    <constraint firstItem="xDE-23-FcI" firstAttribute="top" secondItem="bUh-PP-rcM" secondAttribute="bottom" constant="20" id="UYp-uA-Xid"/>
+                    <constraint firstItem="xDE-23-FcI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="VNU-Lu-EdU"/>
+                    <constraint firstItem="6EY-30-Afb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ywa-4C-vxe"/>
+                    <constraint firstItem="6EY-30-Afb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="aVR-A2-89L"/>
+                    <constraint firstItem="rId-GA-Gdg" firstAttribute="top" secondItem="xDE-23-FcI" secondAttribute="bottom" constant="20" id="bnc-3Y-LFK"/>
+                    <constraint firstItem="bUh-PP-rcM" firstAttribute="top" secondItem="6EY-30-Afb" secondAttribute="bottom" constant="8" id="eyK-0Z-t1m"/>
+                    <constraint firstItem="rId-GA-Gdg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="gV6-CX-MmM"/>
+                    <constraint firstAttribute="trailing" secondItem="xDE-23-FcI" secondAttribute="trailing" constant="15" id="qe1-7t-gof"/>
+                    <constraint firstItem="bUh-PP-rcM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="xhQ-Tm-MZb"/>
+                    <constraint firstAttribute="trailing" secondItem="rId-GA-Gdg" secondAttribute="trailing" constant="15" id="xvA-I1-ZSQ"/>
+                    <constraint firstAttribute="trailing" secondItem="vnh-ug-Aui" secondAttribute="trailing" constant="50" id="yeo-v0-Kc8"/>
+                    <constraint firstAttribute="trailing" secondItem="bUh-PP-rcM" secondAttribute="trailing" constant="15" id="yrR-tc-Zx1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="authorLab" destination="rId-GA-Gdg" id="ELT-m4-gfY"/>
+                <outlet property="contentLab" destination="xDE-23-FcI" id="egW-IT-Nge"/>
+                <outlet property="likeBtn" destination="vnh-ug-Aui" id="St4-rR-ExK"/>
+                <outlet property="photographerLab" destination="bUh-PP-rcM" id="TgS-2f-H0k"/>
+                <outlet property="topPhotoImage" destination="6EY-30-Afb" id="IEJ-0V-4LK"/>
+            </connections>
+            <point key="canvasLocation" x="131.25" y="334.33098591549299"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home_like" width="36" height="31.5"/>
+    </resources>
+</document>

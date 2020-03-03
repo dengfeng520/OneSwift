@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="119" id="KGk-i7-Jjw" customClass="ReadingTableViewCell" customModule="One_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="113"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="322" height="112.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="短片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dL-yb-V2D">
+                        <rect key="frame" x="270" y="12" width="40" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="ugt-qO-B7E"/>
+                            <constraint firstAttribute="width" constant="40" id="xia-BL-68X"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="打不赢的前女友" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYk-9L-PT5">
+                        <rect key="frame" x="12" y="12" width="250" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="zOF-Un-u03"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="全员恶女录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4X-Nz-H3J">
+                        <rect key="frame" x="12" y="47" width="298" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="bNE-fC-TJS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每一个前任都觉得，分手后虽然她行" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tT2-Qn-2HQ">
+                        <rect key="frame" x="12" y="80" width="298" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="XyM-XL-KL4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="3dL-yb-V2D" secondAttribute="trailing" constant="12" id="1go-pv-YQM"/>
+                    <constraint firstItem="3dL-yb-V2D" firstAttribute="leading" secondItem="NYk-9L-PT5" secondAttribute="trailing" constant="8" id="78K-0c-7g5"/>
+                    <constraint firstItem="NYk-9L-PT5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="DEU-6r-Oga"/>
+                    <constraint firstItem="w4X-Nz-H3J" firstAttribute="top" secondItem="NYk-9L-PT5" secondAttribute="bottom" constant="12" id="GO5-c2-WeB"/>
+                    <constraint firstAttribute="trailing" secondItem="tT2-Qn-2HQ" secondAttribute="trailing" constant="12" id="KM0-GN-Yrp"/>
+                    <constraint firstItem="w4X-Nz-H3J" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="T5N-c1-ZRq"/>
+                    <constraint firstItem="3dL-yb-V2D" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="Vwt-Wo-T05"/>
+                    <constraint firstAttribute="bottom" secondItem="tT2-Qn-2HQ" secondAttribute="bottom" constant="11.5" id="WC1-rY-isw"/>
+                    <constraint firstItem="tT2-Qn-2HQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="c5B-Yz-xV8"/>
+                    <constraint firstItem="NYk-9L-PT5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="jFz-vy-ROp"/>
+                    <constraint firstAttribute="trailing" secondItem="w4X-Nz-H3J" secondAttribute="trailing" constant="12" id="qWb-5n-55G"/>
+                    <constraint firstItem="tT2-Qn-2HQ" firstAttribute="top" secondItem="w4X-Nz-H3J" secondAttribute="bottom" constant="12" id="sXz-7v-fym"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="content" destination="tT2-Qn-2HQ" id="zfa-4a-ztV"/>
+                <outlet property="subTitle" destination="w4X-Nz-H3J" id="Dey-OV-tPz"/>
+                <outlet property="title" destination="NYk-9L-PT5" id="XRH-f5-leu"/>
+                <outlet property="type" destination="3dL-yb-V2D" id="7w5-AH-hJy"/>
+            </connections>
+            <point key="canvasLocation" x="133.33333333333334" y="176.45089285714286"/>
+        </tableViewCell>
+    </objects>
+</document>
