@@ -14,7 +14,7 @@ target 'One-Swift' do
   pod 'lottie-ios'
   pod 'RxSwift'
   pod 'SwiftyJSON'
-#  pod 'RealmSwift'
+  pod 'RealmSwift'
   pod 'RPBannerView', :git => 'https://github.com/dengfeng520/RPBannerView'
   pod 'RPToastView', :git => 'https://github.com/dengfeng520/RPToastView'
   pod 'RPAlertView', :git => 'https://github.com/dengfeng520/RPAlertView'

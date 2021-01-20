@@ -16,8 +16,4 @@ class OneBaseNavViewController: UINavigationController {
         self.hidesBottomBarWhenPushed = true;
         // Do any additional setup after loading the view.
     }
-    
-
-   
-
 }

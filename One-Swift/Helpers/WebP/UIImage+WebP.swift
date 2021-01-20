@@ -13,6 +13,7 @@ private func freeWebPData(info: UnsafeMutableRawPointer?, data: UnsafeRawPointer
 }
 
 extension UIImage {
+    /// 加载webp图片
     convenience init?(webPPath path: String) {
         guard let imageData = NSData(contentsOfFile: path) else {
             return nil
@@ -37,8 +38,7 @@ extension UIImage {
                                  shouldInterpolate: true,
                                  intent: CGColorRenderingIntent.defaultIntent) {
             self.init(cgImage: cgimage)
-        }
-        else {
+        } else {
             return nil
         }
     }

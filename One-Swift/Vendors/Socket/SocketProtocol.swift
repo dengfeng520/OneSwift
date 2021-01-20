@@ -8,8 +8,11 @@
 
 import UIKit
 
-@objc protocol SocketProtocol: NSObjectProtocol {
+protocol SocketProtocol: NSObjectProtocol {
+    func socketLoginSuccess(code : Int)
+}
 
-     @objc optional func socketLoginSuccess(code : Int)
-    
+extension SocketProtocol {
+    /// 可选方法
+    func socketLoginSuccess(code : Int)
 }

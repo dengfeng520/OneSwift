@@ -11,7 +11,7 @@ import UIKit
 class MusicViewController: UIViewController {
 
     var tableView: UITableView!
-    var presenter: MusicPresenter<MusicViewController>!
+    var presenter: MusicPresenter<MusicViewController> = MusicPresenter<MusicViewController>()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,6 @@ class MusicViewController: UIViewController {
         self.title = "Music";
         // Do any additional setup after loading the view.
         
-        self.presenter = MusicPresenter<MusicViewController>.init()
         self.presenter.bindMusicViewController(musicView: self)
         self.presenter.bindMusicIdArrayFromServer()
         
